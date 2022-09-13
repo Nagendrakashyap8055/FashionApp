@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".list">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_gradient"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:id="@+id/edu"
+                android:layout_marginTop="10dp"
+
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="EDUCATION"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <!--                <ImageView-->
+
+                <!--                    android:layout_width="282dp"-->
+                <!--                    android:layout_height="208dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:background="@drawable/soc"-->
+                <!--                    android:padding="5px" />-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gradient_old"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:id="@+id/env"
+
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="ENVIRONMENT CONSERVATION"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    android:textStyle="bold"></TextView>
+
+                <!--                <ImageView-->
+
+                <!--                    android:layout_width="228dp"-->
+                <!--                    android:layout_height="184dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:background="@drawable/old"-->
+                <!--                    android:padding="5px" />-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gradient_dev"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:id="@+id/med"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="211dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="MEDICAL NGOS"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <!--                <ImageView-->
+
+                <!--                    android:layout_width="240dp"-->
+                <!--                    android:layout_height="197dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:background="@drawable/dev"-->
+                <!--                    android:padding="5px" />-->
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_gradient"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:id="@+id/orp"
+                android:layout_marginTop="10dp"
+
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="ORPHANAGE"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <!--                <ImageView-->
+
+                <!--                    android:layout_width="282dp"-->
+                <!--                    android:layout_height="208dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:background="@drawable/soc"-->
+                <!--                    android:padding="5px" />-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gradient_old"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:id="@+id/old"
+
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="OLDAGE HOMES"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    android:textStyle="bold"></TextView>
+
+                <!--                <ImageView-->
+
+                <!--                    android:layout_width="228dp"-->
+                <!--                    android:layout_height="184dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:background="@drawable/old"-->
+                <!--                    android:padding="5px" />-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gradient_dev"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:id="@+id/wom"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="211dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="WOMEN EMPOWERMENT"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <!--                <ImageView-->
+
+                <!--                    android:layout_width="240dp"-->
+                <!--                    android:layout_height="197dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:background="@drawable/dev"-->
+                <!--                    android:padding="5px" />-->
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/home_gradient"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:id="@+id/men"
+                android:layout_marginTop="10dp"
+
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="MENTALLY RETARDED"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <!--                <ImageView-->
+
+                <!--                    android:layout_width="282dp"-->
+                <!--                    android:layout_height="208dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:background="@drawable/soc"-->
+                <!--                    android:padding="5px" />-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gradient_old"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:id="@+id/phy"
+
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="PHYSICALLY CHALLENGED"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    android:textStyle="bold"></TextView>
+
+                <!--                <ImageView-->
+
+                <!--                    android:layout_width="228dp"-->
+                <!--                    android:layout_height="184dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:background="@drawable/old"-->
+                <!--                    android:padding="5px" />-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gradient_dev"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:id="@+id/ski"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="211dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="SKILL DEVELOPMENT"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <!--                <ImageView-->
+
+                <!--                    android:layout_width="240dp"-->
+                <!--                    android:layout_height="197dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:background="@drawable/dev"-->
+                <!--                    android:padding="5px" />-->
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/home_gradient"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:id="@+id/bli"
+
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="BLIND SCHOOL"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+
+                    android:textStyle="bold"></TextView>
+
+                <!--                <ImageView-->
+
+                <!--                    android:layout_width="228dp"-->
+                <!--                    android:layout_height="184dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:background="@drawable/old"-->
+                <!--                    android:padding="5px" />-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gradient_old"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:id="@+id/blo"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="211dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="BLOOD BANK"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <!--                <ImageView-->
+
+                <!--                    android:layout_width="240dp"-->
+                <!--                    android:layout_height="197dp"-->
+                <!--                    android:layout_gravity="center"-->
+                <!--                    android:background="@drawable/dev"-->
+                <!--                    android:padding="5px" />-->
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

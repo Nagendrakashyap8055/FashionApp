@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.intern3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ngo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ngo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Intern3">
+        <activity
+            android:name=".blo"
+            android:exported="true" />
+        <activity
+            android:name=".bli"
+            android:exported="true" />
+        <activity
+            android:name=".phy"
+            android:exported="true" />
+        <activity
+            android:name=".men"
+            android:exported="true" />
+        <activity
+            android:name=".ski"
+            android:exported="true" />
+        <activity
+            android:name=".wom"
+            android:exported="true" />
+        <activity
+            android:name=".orp"
+            android:exported="true" />
+        <activity
+            android:name=".med"
+            android:exported="true" />
+        <activity
+            android:name=".env"
+            android:exported="true" />
+        <activity
+            android:name=".edu"
+            android:exported="true" />
+        <activity
+            android:name=".soc"
+            android:exported="true" />
+        <activity
+            android:name=".old"
+            android:exported="true" />
+        <activity
+            android:name=".list"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffeca5"
+    tools:context=".blo">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BLOOD BANK"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:background="@drawable/info_layout" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="SAMSTHA VIJAYA SAMAJIKA SEVA SAMITHI"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="22, OLD RAJMOHALLA, INDORE"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="SERVICES : Dilass Maraja Scholar Oyster of children, Social Basti to teach in school, donate blood to the soldiers of the country"
+                        android:layout_marginStart="5dp">
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/red"
+                        android:textIsSelectable="true"
+                        android:text="EMAIL: nirmalverm60407@gmail.com \nPHNO : 9425060407, 9425060405\nOFFICER :MR. DHEERAJ PATIDAR: 9425060405\nSHRI NIRMAL VERMA: 0425060407 \nSHRI CHANDRAMOHAN DUBAISRI PROMOD JI"></TextView>
+                    <Button
+                        android:id="@+id/call_soc_9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Call now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

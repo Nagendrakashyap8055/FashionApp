@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffeca5"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".env">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENVIRONMENT CONSERVATION"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:background="@drawable/info_layout" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="GRAMINA JANAJATHIYA KALYANA SAMITHI "
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="45/24 SARTHA T T NAGAR BHOPAL"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="SERVICES :SHIKSHA SAHAYATHA ,ROJAGAANA ,PARYVARANA ,JAIVIKA KHETHI"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/red"
+                        android:textIsSelectable="true"
+                        android:text="PHNO :9407136446,8989792112,9669188091\nOFFICER SRI PREMASIMHA :9424826161\n SRI HARISIMHA PARAMARA : 9407136446 :\nESHWARADASA INDRAJA"></TextView>
+
+                    <Button
+                        android:id="@+id/call_soc_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Call now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="SHIVA GANGAA SAMAGRA GRAMA VIKASA PARISHATH"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="402 INDRASANA ,JAVARA "></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="SERVICES :WATER CONSERVATION. MATING, ANIMAL HUSBANDRY, ORGANIC AGRICULTURE"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/red"
+                        android:textIsSelectable="true"
+                        android:text="EMAIL: shivgangajhabua@gmail.com \nPHNO :9425311447,9425319640,9425319670\nOFFICER :Milan Dandekar: 9425311447\nMR. MUKESH JAIN 942054901"></TextView>
+
+                    <Button
+                        android:id="@+id/call_soc_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Call now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="SREE NARAYANA SAMAJAM"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="A.46 / 3. Allegiance Colony Indore"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/red"
+                        android:textIsSelectable="true"
+                        android:text="EMAIL: ashreearaya.nasamajmindoree@gmail.com \nPHNO : 9425348344,9425557703,942566436\nOFFICER :MR. S. DEVRAJ: 9425348344\nSMR. MINISH PANDEY: 9425322026 \nSHRI SANTOSH PATIDAR "></TextView>
+
+                    <Button
+                        android:id="@+id/call_soc_10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Call now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

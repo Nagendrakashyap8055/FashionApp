@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffeca5"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".med">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEDICAL"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:background="@drawable/info_layout" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingConstraints"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="MA KANKESHWARI DHAMA AND DHARMARTHICKA KAMAPLEKSA NYASA"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="84/2 PARADESHIPURA READYMADE COMPLEX, INDORE "></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="SERVICES :MEDICAL PHYSIOTHERAPY, HOMEOPATHIC YOGA CENTRE, PATHOLOGY"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/red"
+                        android:textIsSelectable="true"
+                        android:text="PHNO : 9425053469\nOFFICER :SHRI RAJAKPUR G 9425053469\nMR. RAMESH JI 9424991299"></TextView>
+
+                    <Button
+                        android:id="@+id/call_soc_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Call now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+                </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/info_layout"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="NIROGH"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:text="DR. U03 YASH ELITE APARTMENT 5/8, Y N ROAD NEAR JAIN SAMAJ BHAWAN ,INDORE"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="18dp"
+                android:layout_marginBottom="5dp"
+                android:text="SERVICES :GIVING KNOWLEDGE OF GOVERNMENT SCHEMES FOR TREATMENT IN GOVERNMENT HOSPITAL"
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/red"
+                android:textIsSelectable="true"
+                android:text="EMAIL: skinaru@gmail.com \nPHNO : 9425063283 \nOFFICER :SHRI SHARDA JI 9425063283\nMR. RAJUKOLEKAR  "></TextView>
+
+            <Button
+                android:id="@+id/call_soc_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00ff00"
+                android:text="Call now"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"></Button>
+        </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="INTERNATIONAL ORGANIZATION SUDARBAI FULCHAND IS THE IDEAL EDUCATION"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="DR. U03 YASH ELITE APARTMENT 5/8, Y N ROAD NEAR JAIN SAMAJ BHAWAN ,INDORE"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="SERVICES :GIVING KNOWLEDGE OF GOVERNMENT SCHEMES FOR TREATMENT IN GOVERNMENT HOSPITAL"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/red"
+                        android:textIsSelectable="true"
+                        android:text="EMAIL: skinaru@gmail.com \nPHNO : 9425063283 \nOFFICER :SHRI SHARDA JI 9425063283\nMR. RAJUKOLEKAR  "></TextView>
+
+                    <Button
+                        android:id="@+id/call_soc_16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Call now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="SHRI SAI BABA MANDIR INSTITUTE TRUST"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="SHRI SAI BABA MANDIR SANSTHAN TRUST CHHATRIBAGH, INDORE"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="SERVICES :LAGA RAVIVARAN SOOGRAPHY, ECG. PHYSIOTHERAPY, GUEST HOUSE IN SHIRDI MEDICAL ASSISTANCE EDUCATIONAL"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/red"
+                        android:textIsSelectable="true"
+                        android:text="EMAIL: sheisaibabamsti@gmailcom \nPHNO : 7312341790 ,2343772 ,2342955 \nOFFICER :MR. SUNITA JAIN: 9827035454\nMR. OMPRAKASH SHARMA 990714660\nWITH MR. RAJU"></TextView>
+
+                    <Button
+                        android:id="@+id/call_soc_17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Call now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="MAHARISHI DADHICHI BODY DONATION - ORGAN DONATION COMMITTEE"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="SHRI SAI BABA MANDIR SANSTHAN TRUST CHHATRIBAGH, INDORE"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="SERVICES :SOCIAL BODY DONATION"
+                        >
+
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/red"
+                        android:textIsSelectable="true"
+                        android:text="PHNO : 7312341443, 9993175407, 7898225846 \nOFFICER :MR. SUNITA JAIN: 9827035454\nMR. OMPRAKASH SHARMA 990714660\nWITH MR. RAJU"></TextView>
+
+                    <Button
+                        android:id="@+id/call_soc_19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Call now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/info_layout"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="SHRI RAJIV DIXIT VICHAR MANCH INDORE"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="71 CLOCK COLONY INDORE"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="18dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="SERVICES :HEALTH LECTURES (FREE MEDICAL CAMP, AGNIHOTRA PRASAR, PANCHGATYA ANUSANDHAN SHIVA"
+                        >
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="EMAIL:pariksjos@gmailcom\nPHNO : 7312551824, 9425437818 \nOFFICER :SHRI RAJVENDRA TRIPATHI 9826628028\nMR. PARIKSHIT JOSH 9425437818\n MR. RAJU KOLEKAR"
+                        android:textColor="@color/red"
+                        android:textIsSelectable="true"></TextView>
+
+                    <Button
+                        android:id="@+id/call_soc_21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#00ff00"
+                        android:text="Call now"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"></Button>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
